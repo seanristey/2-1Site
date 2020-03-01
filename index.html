@@ -4,12 +4,7 @@
 <h3 style="padding-left: 30px;"><span style="color: #ff0000;">For each&nbsp;character</span>&nbsp;in the story:</h3>
 <h3 style="padding-left: 60px;"><span style="color: #ff0000;">Record the name of the character</span>&nbsp;(If the story is narrated by an unnamed character use "Narrator".&nbsp; For unnamed characters use "Unnamed Character")</h3>
 <h3 style="padding-left: 60px;"><span style="color: #ff0000;">Provide a short description of the character</span></h3>
-<h3 style="padding-left: 30px;"><span style="color: #ff0000;">IMPORTANT: Formatting</span></h3>
-<h3 style="padding-left: 60px;">&nbsp;In order to be paid you must:</h3>
-<h3 style="padding-left: 60px;">Write the <span style="color: #ff0000;">name of the character followed directly by an equals sign and then the short description</span></h3>
-<h3 style="padding-left: 60px;"><span style="color: #000000;">For any <span style="color: #ff0000;">additional characters</span>, <span style="color: #ff0000;">move to the next line and record</span> the new character <span style="color: #ff0000;">name</span> and <span style="color: #ff0000;">description</span></span></h3>
-<h3 style="padding-left: 60px;"><span style="color: #ff0000;">Example</span>:</h3>
-<h3 style="padding-left: 90px;">Pikachu=A small yellow mouse Pokemon with red circles on its cheeks, pointy ears and a tail shaped like a lightning bolt</h3>
+<h3 style="padding-left: 90px;">&nbsp;</h3>
 <h3>When you have completed recording&nbsp; and describing all of the characters in the story, click <span style="color: #ff0000;">SUBMIT</span></h3>
 
 <p>&nbsp;</p>
@@ -26,10 +21,44 @@
 <p>I'm tired of crying. Maybe I should laugh.</p>
 
 <h2>Please fill the following field with names and descriptions of characters that appeared within your story</h2><br>
+<h3><span style="color: #ff0000;">NOTE: </span>Not all fields may be required to record all of the characters within the story</h3><br>
 
-<form action="/">
-  <textarea placeholder="Pikachu=A small yellow mouse Pokemon with red circles on its cheeks, pointy ears and a tail shaped like a lightning bolt
-Charmander=A small orange lizard-like Pokemon that stands on its hind legs and has a flame on the end of its tail" id="w3mission" rows="8" cols="80"></textarea>
-  <br><br>
-  <input type="submit" value="Submit">
+<form action="/action_page.php">
+  <label for="char1name">Character 1 Name:</label> 
+  <input id="char1name" name="char1name" type="text" /> 
+  <label for="char1desc"><br />Character 1 Description:<br />
+  </label> <textarea id="char1desc" cols="50" rows="4"></textarea>
+  <br /><br /> 
+  
+  <label for="char2name">Character 2 Name:</label>
+  <input id="char2name" name="char2name" type="text" />
+  <label for="char2desc"><br />Character 2 Description:<br />
+  </label> <textarea id="char2desc" cols="50" rows="4"></textarea>
+  <br /><br />
+  
+  <label for="char3name">Character 3 Name:</label> 
+  <input id="char3name" name="char3name" type="text" />
+  <label for="char3desc"><br />Character 3 Description:<br />
+  </label> <textarea id="char3desc" cols="50" rows="4"></textarea>
+  <br /><br />
+  
+  <label for="char4name">Character 4 Name:</label>
+  <input id="char4name" name="char4name" type="text" />
+  <label for="char4desc"><br />Character 4 Description:<br />
+  </label> <textarea id="char4desc" cols="50" rows="4"></textarea>
+  <br /><br /> 
+  
+  <label for="char5name">Character 5 Name:</label>
+  <input id="char5name" name="char5name" type="text" />
+  <label for="char5desc"><br />Character 5 Description:<br />
+  </label> <textarea id="char5desc" cols="50" rows="4"></textarea>
+  <br /><br />
+  
+  <label for="char6name">Character 6 Name:</label>
+  <input id="char6name" name="char6name" type="text" />
+  <label for="char6desc"><br />Character 6 Description:<br />
+  </label> <textarea id="char6desc" cols="50" rows="4"></textarea>
+  <br /><br />
+  
+  <input type="submit" value="Submit" />
 </form>
